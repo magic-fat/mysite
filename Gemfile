@@ -30,16 +30,17 @@ gem 'jbuilder', '~> 2.5'
 
 group :production do
   gem 'thin'
+  gem 'rails_12factor'
   gem 'pg'
 end
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'sqlite3'
 end
 
 group :development do
-gem 'sqlite3'
   gem 'rvm'
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console'
