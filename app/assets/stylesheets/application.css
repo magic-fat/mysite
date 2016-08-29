@@ -36,7 +36,7 @@
 	#button:hover{
 		background-color:#54c159;
 	}
-	#help #links{ float: left; padding: 10px 0px 10px 0px;  width: 98%; border-bottom: 3px solid #151c25; margin-left: 1%;	 }
+	#help #links{ float: left; padding: 10px 0px 10px 0px;  width: 98%; border-bottom: 3px solid #151c25; margin-left: 10px;	 }
 	#help #links a{color:#fff; font-family:'Cormorant Garamond'; font-size:25px; padding: 0px 10px 0px 10px; }
 	#help #links img { width: 20px; height: 20px; }
 	#help #thanks { width: 98%; float: left; padding: 20px 0px 20px 0px; margin-left:1%; 	}
