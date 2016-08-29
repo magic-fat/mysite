@@ -25,10 +25,11 @@
 	#help { width: 100%; float: left; background-color: #1d2733;	color:#fff;
 		-webkit-box-shadow:0px 0px 25px #000; margin-top: 10px;
 	}
-	#about_site { width: 800px;  margin-top: 50px; 	}
+	#about_site a{ color:#fff; }
+	#about_site { width: 800px;  margin-top: 50px;  padding:10px 0px 10px 0px;	}
 	#about_site p{ font-size: 50px; font-family:'Underdog';}
 	#what{ width: 360px; float: left; margin-left: 20px; margin-top: 50px;}
-	#what img{ width: 180px;  }
+	#what img{ width: 180px;  } */
 	#wrapper { width: 100%; float: left;  }
 	#text{ width:700px;  }
 	#text p{ font-size: 50px; padding: 10px 10px 30px 10px; font-family: 'Poiret One'}
@@ -37,3 +38,9 @@
 	#button:hover{
 		background-color:#54c159;
 	}
+	#help #links{ float: left; padding: 10px 0px 10px 0px;  width: 98%; border-bottom: 3px solid #151c25; margin-left: 1%;	 }
+	#help #links a{color:#fff; font-family:'Cormorant Garamond'; font-size:25px; padding: 0px 10px 0px 10px; }
+	#help #links img { width: 20px; height: 20px; }
+	#help #thanks { width: 98%; float: left; padding: 20px 0px 20px 0px; margin-left:1%; 	}
+	#help #thanks h1{ font-family:'Underdog'; float: left; }
+	#help #thanks img{ width: 70px; height: 80px; padding: 0px 5px 0px 5px; }
