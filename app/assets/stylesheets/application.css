@@ -28,8 +28,6 @@
 	#about_site a{ color:#fff; }
 	#about_site { width: 800px;  margin-top: 50px;  padding:10px 0px 10px 0px;	}
 	#about_site p{ font-size: 50px; font-family:'Underdog';}
-	#what{ width: 360px; float: left; margin-left: 20px; margin-top: 50px;}
-	#what img{ width: 180px;  } */
 	#wrapper { width: 100%; float: left;  }
 	#text{ width:700px;  }
 	#text p{ font-size: 50px; padding: 10px 10px 30px 10px; font-family: 'Poiret One'}
