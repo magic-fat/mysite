@@ -1,7 +1,7 @@
 	body{ background-color:#fff; width: 100%;  }
 	*{ padding: 0; margin:0; outline: none; }
-	#photo{  height: 300px; width: 100%;   float: left;  background-image:url('123.png');}
-	#photo img{ width: 100%; height: 100%; }
+	#photo{  height: 300px; width: 100%;   float: left;}
+	#photo img{  height: 100%; }
 	header{ float: left; width: 100%; }
 	#logo img{ width: 35px; height: 35px; }
 	#logo{ font-size: 25px; padding: 10px 5px 10px 5px; font-family: 'Pacifico'; float: left;}
