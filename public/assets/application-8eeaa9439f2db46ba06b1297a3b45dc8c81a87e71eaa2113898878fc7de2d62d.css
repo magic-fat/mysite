@@ -1,0 +1,82 @@
+	body{ background-color:#fff; width: 100%;  }
+	*{ padding: 0; margin:0; outline: none; }
+	#photo{  height: 300px; width: 100%; background-image:url('123-f0507f94dd99615b51dfaecb1899a55dc09711373c32f6a0afb4d166f62cc8c0.png'); background-position: center center; background-size: cover;  float: left;}
+	#photo img{  height: 100%; width: 100%;}
+	header{ float: left; width: 100%; }
+	#logo img{ width: 35px; height: 35px; }
+	#logo{ font-size: 25px; padding: 10px 5px 10px 5px; font-family: 'Pacifico'; float: left;}
+	#logo2 { color:#fff; }
+	#logo2 img{ width: 35px; height: 35px; }
+	#logo2{ font-size: 25px; padding: 10px 5px 10px 5px; font-family: 'Pacifico'; float: left; width: calc(100% - 10px);}
+	#block{ float: left;  padding: 20px 0px 16px 0px; border-bottom: 3px solid rgba(255,255,255,0); font-family: 'Cormorant Garamond', serif; font-size: 25px; -webkit-transition:border-bottom.6s ease;
+	-o-transition:border-bottom.6s ease;
+	-ms-transition:border-bottom.6s ease;
+	-moz-transition:border-bottom.6s ease;
+	 margin-left:2%;}
+	#block:hover{
+		border-bottom:3px solid #03a9f4;
+	}
+	header a{ color:#000; }
+	a{ text-decoration: none; }
+	#content{ width: 100%; float: left;  padding:0px 0px 70px 0px;  background-color: #fff; color:#000;   }
+	#social{ width:930px;  margin-top: 10px; }
+	#social #h1{  font-family: 'Cormorant Garamond';  }
+	#social #span{ font-family: 'Underdog'; }
+	#social #soc_block{ width: 300px; float: left; margin-left: 10px; margin-top: 50px;		 }
+	#social #soc_block img{ margin-top: 10px; }
+	#social #soc_block p{ font-family:'Cormorant Garamond';  font-size: 20px; }
+	#help { width: 100%; float: left; background-color: #1d2733;	color:#fff;
+		-webkit-box-shadow:0px 0px 25px #000; margin-top: 20px;
+	}
+	#about_site a{ color:#fff; }
+	#about_site { width: 800px;  margin-top: 50px;  padding:10px 0px 10px 0px;	}
+	#about_site p{ font-size: 50px; font-family:'Underdog';}
+	#wrapper { width: 100%; float: left;  }
+	#text{ width:700px;  }
+	#text p{ font-size: 50px; padding: 10px 10px 30px 10px; font-family: 'Poiret One'}
+	#text span{ font-size: 30px; font-family: 'Cormorant Garamond'; }
+	#button { padding:10px 20px 10px 20px; font-size: 30px; margin-top: 10px; font-family:'Cormorant Garamond'; background-color:#4caf50; border-bottom:4px solid #469849; color:#fff; border-top:0px solid #ddd; border-left:0px solid #ddd; border-right:0px solid #ddd; cursor: pointer;  -webkit-transition:background-color.5s ease; -o-transition:background-color.5s ease; -ms-transition:background-color.5s ease; -moz-transition:background-color.5s ease;}
+	#button:hover{
+		background-color:#54c159;
+	}
+	#help #links{ float: left; padding: 10px 0px 10px 0px;  width: 98%; border-bottom: 3px solid #151c25; margin-left: 10px;	 }
+	#help #links a{color:#fff; font-family:'Cormorant Garamond'; font-size:25px; padding: 0px 10px 0px 10px; }
+	#help #links img { width: 20px; height: 20px; }
+	#help #thanks { width: 98%; float: left; padding: 20px 0px 20px 0px; margin-left:1%; 	}
+	#help #thanks h1{ font-family:'Underdog'; float: left; }
+	#help #thanks img{ width: 70px; height: 80px; padding: 0px 5px 0px 5px; }
+
+	/* /register  */
+
+#form{
+		background-color:#fff; border:1px solid #ddd; border-radius: 5px; float: left;
+		padding:10px; width: 500px; margin-left:calc(50% - 260px); margin-top:60px;
+}
+#form select{
+	background-color: rgba(255,255,255,0);
+	border:1px solid rgba(255,255,255,0);
+	cursor: pointer;	
+	font-size:25px;
+	font-family:"Poiret One";
+}
+#form input[type=text],input[type=email],input[type=password]{
+	padding: 5px; 
+	width: calc(100% - 15px);
+	font-size:25px;
+	font-family:"Poiret One";
+	border-top:0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 1px solid #ddd;
+}
+#form div { padding :4px 0px 4px 0px; }
+#form h1{ font-family:'Underdog'; color:#5c2858; padding :10px 0px 15px 0px;}
+#form input[type=submit]{
+	padding:10px 20px 10px 20px; font-size: 30px; margin-top: 10px; font-family:'Cormorant Garamond'; background-color:#00bcd4; border-bottom:4px solid #01a2ea; color:#fff; border-top:0px solid #ddd; border-left:0px solid #ddd; border-right:0px solid #ddd; cursor: pointer;  -webkit-transition:background-color.5s ease; -o-transition:background-color.5s ease; -ms-transition:background-color.5s ease; -moz-transition:background-color.5s ease;
+	cursor: pointer;
+}
+#form input[type=submit]:hover{  background-color:#03c3dc;  }
+#auth { padding:10px 20px 10px 20px; font-size: 30px; margin-top: 10px; font-family:'Cormorant Garamond'; background-color:#4caf50; border-bottom:4px solid #469849; color:#fff; border-top:0px solid #ddd; border-left:0px solid #ddd; border-right:0px solid #ddd; cursor: pointer;  -webkit-transition:background-color.5s ease; -o-transition:background-color.5s ease; -ms-transition:background-color.5s ease; -moz-transition:background-color.5s ease;}
+	#auth:hover{
+		background-color:#54c159;
+	}
