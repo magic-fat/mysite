@@ -1,8 +1,12 @@
 <% content_for :title do %>
   Регистрация
 <% end %>
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Underdog" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<h1>REGISTER</h1>
+<div id="logo2"><img src="https://cdn1.iconfinder.com/data/icons/nuvola2/128x128/apps/kteatime.png" rel="shortcut icon"><span>TeaTime</span></div>
 <script>
 	$(document).ready(function(){
 	$('body').css('background-size','cover');
@@ -15,3 +19,20 @@
 		background-image: url('/assets/bg-5a7636756afbd2c9be03d29229afbc361a6887c1e49ef59aeee476334a174830.jpg');
 	}
 </style>
+<div id="form">
+	<%= form_for :register , url: users_path do |f| %>
+	<h1>Заполнение формы</h1>
+	<div><%= f.email_field:email, placeholder:"Ваш E-Mail" %></div>
+	<div><%= f.text_field:name, placeholder:"Ваше Имя" %></div>
+	<div><%= f.text_field:surname, placeholder:"Ваша Фамилия" %></div>
+	<div><%= f.password_field:password, placeholder:"Ваш пароль" %></div>
+	<div><%= f.password_field:repassword, placeholder:"Повторите ваш пароль" %></div>
+	<div><%= f.select(:pol)  do %>
+  		 <% [['Мужчина', 1], ['Женщина', 2]].each do |s| -%>
+    	 <%= content_tag(:option, s.first, value: s.last) %>
+         <% end %>
+         <% end %>
+	</div>
+	<div><%= f.submit "готово" %> <a href="/login"><button id="auth">Авторизация</button></a></div>
+	<% end %>
+</div>
