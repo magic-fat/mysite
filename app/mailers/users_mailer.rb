@@ -1,4 +1,4 @@
-class UserMailer < ApplicationMailer
+class UsersMailer < ApplicationMailer
 	default from: 't3atime@rambler.ru'
 	def welcome_email(user)
 		#@user = user;
