@@ -5,7 +5,7 @@ class UsersController < ApplicationController
 	def create
 		@user = First.new(params.require(:register).permit(:email))
 		session[:test] = 'test'
-		UsersMailer.welcome_email(@user)
+		UsersMailer.welcome_email(@user).deliver_later
 		redirect_to '/register'
 	end
 end
