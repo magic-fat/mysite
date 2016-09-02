@@ -3,5 +3,6 @@ class UserController < ApplicationController
 	end
 
 	def create
+		welcome_email('e.grebennik@rambler.ru')
 	end
 end
