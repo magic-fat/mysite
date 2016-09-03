@@ -13,6 +13,7 @@ class UsersController < ApplicationController
 	def create
 		@user = Second.new(params.require(:register).permit(:email))
 		@user.save
+		UsersMailer.welcome_email(@user)
 		redirect_to '/register'
 	end
 end
