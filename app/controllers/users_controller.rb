@@ -1,4 +1,8 @@
 class UsersController < ApplicationController
+	def index
+		@user = Second.all()
+	end
+
 	def new
 	end
 
