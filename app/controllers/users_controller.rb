@@ -3,7 +3,7 @@ class UsersController < ApplicationController
 	end
 
 	def create
-		@user = First.new(params.require(:register).permit(:email))
+		@user = Second.new(params.require(:register).permit(:email))
 		@user.save
 		redirect_to '/register'
 	end
