@@ -3,6 +3,10 @@ class UsersController < ApplicationController
 		@user = Second.all()
 	end
 
+	def show
+		@user = Second.find(params[:id])
+	end
+
 	def new
 	end
 
